@@ -1,0 +1,122 @@
+#root {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  body{
+    height: 100vh;
+  }
+
+  .chrono{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    padding: 0.5rem;
+  
+  }
+
+  .chrono span{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+
+  .question{
+    padding: .2rem;
+    width: 100%;
+  
+  }
+  .cardQuestion{
+    height: 50%;
+    overflow-x: hidden;
+    border: 1px solid black;
+  }
+
+  .QuestionCard{
+    padding: .5rem;
+    background: skyblue;
+    width: 100%;
+    text-align: left;
+    margin: .5rem 0;
+  }
+
+  .QuestionCard p{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+  .QuestionCard  ul li{
+    list-style: none;
+    margin: 15px;
+  }
+
+  .QuestionCard input{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+  }
+
+  .QuestionCard span{
+    font-size: 20px;
+  }
+  .cardAffich{
+    background-color:rgba(137, 43, 226, 0.348);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 2rem;
+    width: 25rem;
+    height: 25rem;
+    align-items: center;
+  }
+  .cardAffich .p1{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3rem;
+   
+    
+  }
+  .cardAffich .p2{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3rem;
+   
+    
+  }
+  .cardAffich .p3{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3rem;
+   
+    
+  }
+  
+  .cardAffich button{
+    width: 10rem;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 2rem;
+  }
+  button{
+    margin-top: 2rem;
+    background-color: black;
+    border: 1px solid olive;
+    width: 5rem;
+  }
+
+  .commencer{
+    width: 12rem;
+    height: 4rem;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 2rem;
+  }
