@@ -8,6 +8,7 @@
     justify-content: center;
     margin: 0 auto;
     text-align: center;
+   
   }
   
   body{
@@ -68,7 +69,7 @@
   }
 
   .QuestionCard span{
-    font-size: 20px;
+    font-size: 20px; 
   }
   .cardAffich{
     background-color:rgba(137, 43, 226, 0.348);
@@ -119,4 +120,101 @@
     background-color: red;
     color: #ffffff;
     border-radius: 2rem;
+  }
+
+
+/* login */
+
+  .formulaire{
+    background-color: #52158af9;
+    width: 30rem;
+    height: 30rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem
+  }
+  .formulaire .titre{
+    color: #FFA501;
+  }
+
+  .inpt1{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .inpt1 input,.inpt2 input{
+    background-color: white;
+    border: 1px solid white;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    font-size: 17px;
+  }
+  .btnconnexion{
+     width: 18rem;
+      --color: #FFA501;
+      padding: 0.8em 1.7em;
+      background-color: transparent;
+      border-radius: .3em;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      transition: .5s;
+      font-weight: 400;
+      font-size: 17px;
+      border: 1px solid;
+      font-family: inherit;
+      text-transform: uppercase;
+      color: var(--color);
+      z-index: 1;
+     }
+     
+     .btnconnexion::before, .btnconnexion::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 50px;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      border-radius: 50%;
+      z-index: -1;
+      background-color: var(--color);
+      transition: 1s ease;
+     }
+     
+     .btnconnexion::before {
+      top: -1em;
+      left: -1em;
+     }
+     
+     .btnconnexion::after {
+      left: calc(100% + 1em);
+      top: calc(100% + 1em);
+     }
+     
+     .btnconnexion:hover::before, .btnconnexion:hover::after {
+      height: 410px;
+      width: 410px;
+     }
+     
+     .btnconnexion:hover {
+      color: rgb(10, 25, 30);
+     }
+     
+     .btnconnexion:active {
+      filter: brightness(.8);
+     }
+     
+  /* Register */
+
+  .formulaire2{
+    background-color: #52158af9;
+    width: 30rem;
+    height: 40rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem
+  }
+  .formulaire2 .titre{
+    color: #FFA501;
   }

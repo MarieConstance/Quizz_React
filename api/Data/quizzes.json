@@ -1,0 +1,20 @@
+[
+    {  
+         "title":"Quizz1",
+
+        "questions" :[
+          {"question":"qu'est ce que JavaScript?","response":{"un langage":false, "un framework":false, "un langage de programmation": true}},
+          {"question":"qu'est ce que React?","response":{"un langage":false, "un framework":true, "une ligne de code": false}},
+          {"question":"qu'est ce que NodeJS?","response":{"un langage":false, "un environnement de developpement":true, "une chaine de caractère": false}},
+          {"question":"qu'est ce que React Native?","response":{"un langage":false, "un sdk":true, "un tableau": false}},
+          {"question":"qu'est ce qu'e Three.JS'?","response":{"un langage":false, "un framework":false, "une librairie": true}},
+          {"question":"qu'est ce qu'une variable'?","response":{"un mot":false, "un stocker d'information":false, "une librairie": true}},
+          {"question":"qu'est ce qu'un tableau'?","response":{"une varable pouvant contenir plusierurs données":true, "un case":false, "une librairie": true}},
+          {"question":"qu'est ce que Objet?","response":{"une boite":false, "un tableau":false, "une entité a part entiè re qui possède un type": true}}
+      ],
+
+        "Points":8,
+        "time ": 50
+      
+      }
+]
